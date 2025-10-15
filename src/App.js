@@ -9,6 +9,8 @@ function App() {
   const handleLogin = (username, password) => {
     if (username == "admin" && password == 12345) {
       setUser(username);
+    } else if (username == "" && password == "") {
+      alert("Please fill out the text fields.");
     } else {
       alert("Invalid username and password.");      
     }
