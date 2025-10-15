@@ -1,0 +1,119 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.login-container {
+  background: #ffffff;
+  padding: 50px 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  width: 360px;
+  text-align: center;
+}
+
+.login-logo {
+  width: 80px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.login-title {
+  font-size: 20px;
+  color: #1f2937;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.login-subtitle {
+  color: #6b7280;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.form-group {
+  margin: 20px 0;;
+}
+
+.form-group input {
+  width: 330px;
+  padding: 12px 14px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background-color: #f9fafb;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.form-group input:focus {
+  border-color: #fb651e;
+  background-color: #fff;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #fb651e;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e85911;
+}
+
+.welcome-container {
+  background: #ffffff;
+  padding: 50px 60px;
+  border-radius: 18px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  width: 500px;
+  margin: auto;
+}
+
+.welcome-container h2 {
+  color: #e65c2d;
+  font-size: 1.8rem;
+  margin: 30px 0;
+  font-weight: 600;
+}
+
+.welcome-container p {
+  color: #4a4a4a;
+  font-size: 1rem;
+  margin-bottom: 25px;
+}
+
+.welcome-container button {
+  background-color: #e65c2d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.welcome-container button:hover {
+  background-color: #cc5227;
+}
